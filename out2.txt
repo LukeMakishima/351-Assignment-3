@@ -1,0 +1,58 @@
+t = 0: Process 1 arrives
+t = 0: Process 1 admitted to memory
+[0, 1999] - Allocated
+[400, 1999] - Free
+t = 0: Process 2 arrives
+t = 0: Process 2 admitted to memory
+[0, 1999] - Allocated
+[400, 1999] - Allocated
+[1000, 1999] - Free
+t = 100: Process 3 arrives
+t = 100: Process 3 admitted to memory
+[0, 1999] - Allocated
+[400, 1999] - Allocated
+[1000, 1399] - Allocated
+[1400, 1999] - Free
+t = 100: Process 4 arrives
+t = 100: Process 4 admitted to memory
+[0, 1999] - Allocated
+[400, 1999] - Allocated
+[1000, 1399] - Allocated
+[1400, 1999] - Allocated
+[1600, 1999] - Free
+t = 200: Process 5 arrives
+t = 200: Process 5 waiting for memory
+t = 1000: Process 1 completes
+[0, 1999] - Free
+[400, 1999] - Allocated
+[1000, 1399] - Allocated
+[1400, 1999] - Allocated
+[1600, 1999] - Free
+t = 1200: Process 6 arrives
+t = 1200: Process 6 admitted to memory
+[0, 399] - Allocated
+[400, 1999] - Allocated
+[1000, 1399] - Allocated
+[1400, 1999] - Allocated
+[1600, 1999] - Free
+[400, 1999] - Free
+t = 1500: Process 7 arrives
+t = 1500: Process 7 admitted to memory
+[0, 399] - Allocated
+[400, 1999] - Allocated
+[1000, 1399] - Allocated
+[1400, 1999] - Allocated
+[1600, 1999] - Free
+[400, 1199] - Allocated
+[1200, 1999] - Free
+t = 1600: Process 8 arrives
+t = 1600: Process 8 admitted to memory
+[0, 399] - Allocated
+[400, 1999] - Allocated
+[1000, 1399] - Allocated
+[1400, 1999] - Allocated
+[1600, 1799] - Allocated
+[400, 1199] - Allocated
+[1200, 1999] - Free
+[1800, 1999] - Free
+Average Turnaround Time: 125.00
